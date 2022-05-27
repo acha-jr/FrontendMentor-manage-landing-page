@@ -51,11 +51,5 @@ radioButtons.forEach((button) => {
     let current = radioButtons.indexOf(button);
     position = article[current].getBoundingClientRect().x;
     testimonials.scrollTo(position, 0);
-    console.log(
-      article[0].getBoundingClientRect().x,
-      article[1].getBoundingClientRect().x,
-      article[2].getBoundingClientRect().x,
-      article[3].getBoundingClientRect().x
-    );
   });
 });
