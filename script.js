@@ -46,9 +46,16 @@ const radioButtons = [...radio.children];
 const testimonials = document.querySelector("section");
 const article = [...testimonials.children];
 
+radioButtons[0].style.background = "hsl(12, 88%, 59%)";
 radioButtons.forEach((button) => {
   button.addEventListener("click", () => {
     let current = radioButtons.indexOf(button);
+
+    for (let i = 0; i < radioButtons.length; i++) {
+      radioButtons[i].style.background = "white";
+    }
+    radioButtons[current].style.background = "hsl(12, 88%, 59%)";
+
     position = article[current].getBoundingClientRect().x;
     testimonials.scrollTo(position, 0);
   });

@@ -319,7 +319,7 @@ form {
   transition: none;
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 850px) {
   .tablet-one {
     width: 90%;
     top: -6%;
