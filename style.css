@@ -18,7 +18,7 @@
 
 .wrapper {
   overflow-x: hidden;
-  position: fixed;
+  position: relative;
 }
 button {
   cursor: pointer;
