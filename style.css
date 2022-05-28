@@ -20,6 +20,9 @@
   overflow-x: hidden;
   position: relative;
 }
+.wrapper::-webkit-scrollbar {
+  display: none;
+}
 button {
   cursor: pointer;
   width: 137px;
