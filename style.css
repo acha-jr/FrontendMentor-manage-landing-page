@@ -16,6 +16,9 @@
   --very-light-gray: hsl(0, 0%, 98%);
 }
 
+body {
+  overflow-x: hidden;
+}
 button {
   cursor: pointer;
   width: 137px;
