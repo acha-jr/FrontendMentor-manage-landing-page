@@ -39,6 +39,13 @@ closeMenu.addEventListener("click", () => {
   openMenu.classList = "";
   nav.classList = "close-nav";
 });
+document.addEventListener("mouseup", (e) => {
+  if (e.target != nav && e.target != nav.parentNode) {
+    closeMenu.classList = "no-show";
+    openMenu.classList = "";
+    nav.classList = "close-nav";
+  }
+});
 
 // Testimonial Scroll
 const radio = document.querySelector(".radio");
