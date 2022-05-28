@@ -16,7 +16,7 @@
   --very-light-gray: hsl(0, 0%, 98%);
 }
 
-body {
+.wrapper {
   overflow-x: hidden;
 }
 button {
